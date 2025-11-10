@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -11,12 +12,37 @@
   --accent-color: #4aac61;
   --base-color: #000000;
   --spacing: 20px;
+=======
+:root {
+  --bg-color: #f7f7f7;
+  --accent-color: #e69912;
+  --base-color: #000000;
+  --spacing: 20px;
+  --border-radius: 14px;
+  --shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+>>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
 }
 
 body {
   font-family: "Archivo", sans-serif;
+<<<<<<< HEAD
   background-color: var(--bg-color); 
   color: var(--text-color);  
+=======
+  background-color: var(--bg-color);
+  color: var(--base-color);
+>>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
 }
 
 h1,
@@ -30,7 +56,13 @@ h6 {
 }
 
 h2 {
+<<<<<<< HEAD
   margin-bottom: var(--spacing);
+=======
+  padding-bottom: calc(var(--spacing)/2);
+  margin-bottom: var(--spacing);
+  border-bottom: 2px solid var(--accent-color);
+>>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
 }
 
 ul {
@@ -40,7 +72,11 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+<<<<<<< HEAD
   transition: 0.3s;
+=======
+  transition: 0.4s;
+>>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
 }
 
 a:hover {
@@ -50,13 +86,19 @@ a:hover {
 header {
   padding: var(--spacing);
   display: flex;
+<<<<<<< HEAD
   align-items: center;
   justify-content: space-between;
+=======
+  justify-content: space-between;
+  align-items: center;
+>>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
 }
 
 header > nav > ul {
   display: flex;
   gap: var(--spacing);
+<<<<<<< HEAD
 
 }
 
@@ -65,8 +107,54 @@ section{
 }
 
 section#map > iframe{
+=======
+}
+
+section {
+  padding: var(--spacing);
+}
+
+section#map > iframe {
+>>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
   width: 100%;
   height: 450px;
   border: none;
   border-radius: var(--border-radius);
+<<<<<<< HEAD
 }
+=======
+  box-shadow: var(--shadow);
+}
+
+section#menu > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing);
+  text-align: center;
+}
+
+section#menu > ul > li {
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing);
+  padding: var(--spacing);
+  border-radius: var(--border-radius);
+}
+
+section#menu img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+}
+
+section#contacto {
+  text-align: center;
+}
+
+section#copyright {
+  padding: var(--spacing) 0;
+  text-align: center;
+}
+>>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03

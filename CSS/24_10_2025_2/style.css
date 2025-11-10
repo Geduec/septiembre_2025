@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+>>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
 /* UNIDADES ABSOLUTAS */
 h1 {
   font-size: 30px;
@@ -26,4 +30,8 @@ p{
   background-color: #008000;
   height: 20vh;
   width: 50vw;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
