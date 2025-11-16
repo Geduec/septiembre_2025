@@ -1,18 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-<<<<<<< HEAD
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-  --bg-color: #f7f7f7;
-  --accent-color: #4aac61;
-  --base-color: #000000;
-  --spacing: 20px;
-=======
 :root {
   --bg-color: #f7f7f7;
   --accent-color: #e69912;
@@ -31,38 +20,53 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
->>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
+}
+
+header {
+  padding: var(--spacing);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+header #logo {
+  width: 100px;
+  height: auto;
+  margin-right: var(--spacing);
+}
+
+header > nav > ul {
+  display: flex;
+  gap: var(--spacing);
 }
 
 body {
   font-family: "Archivo", sans-serif;
-<<<<<<< HEAD
-  background-color: var(--bg-color); 
-  color: var(--text-color);  
-=======
   background-color: var(--bg-color);
   color: var(--base-color);
->>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
+
 }
 
-h1,
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: var(--accent-color);
+}
+
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Lato", sans-serif;
   color: var(--accent-color);
 }
 
 h2 {
-<<<<<<< HEAD
-  margin-bottom: var(--spacing);
-=======
   padding-bottom: calc(var(--spacing)/2);
   margin-bottom: var(--spacing);
   border-bottom: 2px solid var(--accent-color);
->>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
 }
 
 ul {
@@ -72,57 +76,24 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
-<<<<<<< HEAD
-  transition: 0.3s;
-=======
   transition: 0.4s;
->>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
 }
 
 a:hover {
   color: var(--accent-color);
 }
 
-header {
-  padding: var(--spacing);
-  display: flex;
-<<<<<<< HEAD
-  align-items: center;
-  justify-content: space-between;
-=======
-  justify-content: space-between;
-  align-items: center;
->>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
-}
 
-header > nav > ul {
-  display: flex;
-  gap: var(--spacing);
-<<<<<<< HEAD
-
-}
-
-section{
-  padding: var(--spacing);
-}
-
-section#map > iframe{
-=======
-}
 
 section {
   padding: var(--spacing);
 }
 
 section#map > iframe {
->>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
   width: 100%;
   height: 450px;
   border: none;
   border-radius: var(--border-radius);
-<<<<<<< HEAD
-}
-=======
   box-shadow: var(--shadow);
 }
 
@@ -150,11 +121,22 @@ section#menu img {
 }
 
 section#contacto {
-  text-align: center;
+  text-align: left;
+}
+
+section#horarios ul {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--spacing) / 2);
 }
 
 section#copyright {
   padding: var(--spacing) 0;
   text-align: center;
 }
->>>>>>> 152f2752c5fd39290ec881f3bc296569ece7da03
+
+section#volverinicio {
+  text-align: center;
+  padding: var(--spacing);
+} 
+
