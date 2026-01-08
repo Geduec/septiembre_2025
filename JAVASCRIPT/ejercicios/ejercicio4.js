@@ -26,3 +26,4 @@ console.log(aldeanos);
 aldeanos.splice(1,1, "Canela");
 console.log(aldeanos)
 //4.6
+console.log(aldeanos.pop())
